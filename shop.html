@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shop - Gym Socks</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>GymSocks</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Shop Gym Socks</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="images/sock1.jpg" alt="Sport Sock 1" />
+        <h3>Performance Sock</h3>
+        <p>$10</p>
+        <button onclick="addToCart('Performance Sock', 10)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="images/sock2.jpg" alt="Sport Sock 2" />
+        <h3>Color Burst Sock</h3>
+        <p>$12</p>
+        <button onclick="addToCart('Color Burst Sock', 12)">Add to Cart</button>
+      </div>
+    </div>
+  </main>
+  <script src="js/cart.js"></script>
+</body>
+</html>
